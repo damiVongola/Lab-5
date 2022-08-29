@@ -9,7 +9,7 @@ You will be provided with some sample code in sample_code.ipynb that will provid
 
 You will be implementing the following algorithms we discussed in class:
 
-Clustering with K-means
+Clustering with K-means (50 marks)
 - Download the california_housing dataset
 - Pick just the  "Longitude", "Latitude" and "MedHouseVal" columns of the dataset
 - Implement kmeans using sklearn
@@ -30,7 +30,7 @@ Clustering with K-means
   - Plot the inertia's against k's
   - Plot the silhoutte scores against k's
 
-Dimensionality reduction with PCA 
+Dimensionality reduction with PCA(50 marks)
 - Download Breast Cancer dataset from sklearn
 - Implement pca using sklearn
   - Perform feature scaling using StandardScaler before applying PCA
