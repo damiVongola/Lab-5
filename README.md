@@ -35,7 +35,7 @@ Dimensionality reduction with PCA(35 marks)
 - Download Breast Cancer dataset from sklearn
 - Implement pca using sklearn
   - Perform feature scaling using StandardScaler before applying PCA
-  - Print the shape of your scaled data
+    - Print the shape of your scaled data
   - Reduce all features to 2 components
      - Plot a 2D graph with pc1 as x-axis and pc2 as the y-axis
        - Use different points and colors for the "benign" and "malignant" points
