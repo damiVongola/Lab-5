@@ -9,7 +9,7 @@ You will be provided with some sample code in sample_code.ipynb that will provid
 
 You will be implementing the following algorithms we discussed in class:
 
-Clustering with K-means (70 marks)
+Clustering with K-means (65 marks)
 - Download the california_housing dataset
 - Pick just the  "Longitude", "Latitude" and "MedHouseVal" columns of the dataset
 - Implement kmeans using sklearn
@@ -30,19 +30,26 @@ Clustering with K-means (70 marks)
   - Plot the inertia's against k's (y-axis: intertia, x-axis: k)
   - Plot the silhoutte scores against k's (y-axis: silhoutte score, x-axis: k)
 
-Dimensionality reduction with PCA(30 marks)
+Dimensionality reduction with PCA(35 marks)
 - We will be using Dimensionality reduction for the purposes of visualization
 - Download Breast Cancer dataset from sklearn
 - Implement pca using sklearn
   - Perform feature scaling using StandardScaler before applying PCA
+  - Print the shape of your scaled data
   - Reduce all features to 2 components
      - Plot a 2D graph with pc1 as x-axis and pc2 as the y-axis
        - Use different points and colors for the "benign" and "malignant" points
      - Print the explained variance ratio
+  - Reconstruct back to original dimension
+    - Print shape of the reconstructed data
+    - Get mse between reconstructed data and original data
   - Reduce all features to 3 components
     - Plot a 3D graph with pc1 as the x-axis, pc2 as the y-axis and pc3 as the z-axis
       - Use different points and colors for the "benign" and "malignant" points
     - Print the explained variance ratio
+ - Reconstruct back to original dimension
+    - Print shape of the reconstructed data
+    - Get mse between reconstructed data and original data
   
 
    
