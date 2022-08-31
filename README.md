@@ -42,14 +42,14 @@ Dimensionality reduction with PCA(35 marks)
      - Print the explained variance ratio
     - Reconstruct back to original dimension
       - Print shape of the reconstructed data
-      - Get mse between reconstructed data and original data
+      - Get mse between reconstructed data and scaled data
   - Reduce all features to 3 components
     - Plot a 3D graph with pc1 as the x-axis, pc2 as the y-axis and pc3 as the z-axis
       - Use different points and colors for the "benign" and "malignant" points
     - Print the explained variance ratio
     - Reconstruct back to original dimension
       - Print shape of the reconstructed data
-      - Get mse between reconstructed data and original data
+      - Get mse between reconstructed data and scaled data
   
 
    
